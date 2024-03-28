@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230127 09:54:37.109" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\Jesedh\.vscode\extensions\robocorp.robotframework-lsp-1.8.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Click Button">
+<arg>id:logout</arg>
+<msg timestamp="20230127 09:54:45.344" level="FAIL">No keyword with name 'Click Button' found.</msg>
+<status status="FAIL" starttime="20230127 09:54:45.344" endtime="20230127 09:54:45.344"/>
+</kw>
+<kw name="Click Button" library="RPA.Browser.Selenium">
+<arg>id:logout</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230127 09:55:15.003" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20230127 09:55:15.002" endtime="20230127 09:55:15.006"/>
+</kw>
+<status status="PASS" starttime="20230127 09:54:37.160" endtime="20230127 09:55:19.643"/>
+</kw>
+<status status="PASS" starttime="20230127 09:54:37.160" endtime="20230127 09:55:19.644"/>
+</test>
+<status status="PASS" starttime="20230127 09:54:37.111" endtime="20230127 09:55:19.645"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
